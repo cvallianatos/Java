@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+elementFormDefault="qualified">
+<xs:attributeGroup name="shared">
+<xs:attribute name="updatedBy" type="xs:string"/>
+</xs:attributeGroup>
+<xs:element name="todo">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="task">
+<xs:complexType>
+<xs:simpleContent>
+<xs:extension base="xs:string">
+<xs:attributeGroup ref="shared"/>
+</xs:extension>
+</xs:simpleContent>
+</xs:complexType>
+</xs:element>
+</xs:sequence>
+<xs:attributeGroup ref="shared"/>
+</xs:complexType>
+</xs:element>
+</xs:schema>
+

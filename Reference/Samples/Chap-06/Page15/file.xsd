@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+elementFormDefault=" ualified">
+<xs:element name="todo">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="task" type="xs:string"/>
+<xs:element name="status" type="xs:string"/>
+<xs:element minOccurs="0" name="priority" type="xs:string"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>
+

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<todo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="C:\Code\file.xsd">
+<task>Backup monthly sales data</task>
+<status>open</status>
+<priority>9.9</priority>
+</todo>

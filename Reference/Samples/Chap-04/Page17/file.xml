@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<todo>
+<task>
+<description>
+<![CDATA[<hr>Backup <i>sales data</i> for 'last' month.]]>
+</description>
+<owner>Andrew</owner>
+<status>open</status>
+<priority>low</priority>
+</task>
+<task>
+<description>
+<![CDATA[Complete <end of month> report.]]>
+</description>
+<owner>Andrew</owner>
+<status>closed</status>
+<priority>medium</priority>
+</task>
+</todo>

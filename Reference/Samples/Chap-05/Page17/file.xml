@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE todo [
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT who (#PCDATA)>
+<!ELEMENT task (description, who)>
+<!ELEMENT todo (task+)>
+<!ENTITY owner "Andrew">
+]>
+<todo>
+<task>
+<description>Backup sales data</description>
+<who>&owner;</who>
+</task>
+<task>
+<description>Print end of month report</description>
+<who>&owner;</who>
+</task>
+</todo>

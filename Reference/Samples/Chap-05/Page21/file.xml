@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE todo [
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT task (description, who)>
+<!ELEMENT todo (task+)>
+<!ELEMENT who (#PCDATA)>
+<!NOTATION GIF SYSTEM "image/gif">
+<!ENTITY logo SYSTEM "logo.gif" NDATA GIF>
+]>
+<todo>
+<task>
+<description>Backup sales data</description>
+<who>&logo;</who>
+</task>
+</todo>
+

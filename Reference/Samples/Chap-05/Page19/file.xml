@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE todo [
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT task (description)>
+<!ELEMENT todo (task+)>
+<!NOTATION GIF SYSTEM "image/gif">
+]>
+<todo>
+<task>
+<description>Backup sales data</description>
+</task>
+<task>
+<description>Print end of month report</description>
+</task>
+</todo>
+

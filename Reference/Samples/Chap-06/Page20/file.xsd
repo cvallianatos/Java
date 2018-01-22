@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+elementFormDefault="qualified">
+<xs:element name="todo">
+<xs:simpleType>
+<xs:restriction base="xs:string">
+<xs:enumeration value="Backup data"/>
+<xs:enumeration value="Print reports"/>
+<xs:enumeration value="Update logs"/>
+</xs:restriction>
+</xs:simpleType>
+</xs:element>
+</xs:schema>
+

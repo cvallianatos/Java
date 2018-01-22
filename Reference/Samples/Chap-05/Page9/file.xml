@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!DOCTYPE task [
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT who (#PCDATA)>
+<!ELEMENT reserved EMPTY>
+<!ELEMENT task (description, who, reserved)>
+]>
+<task>
+<description>Backup sales data</description>
+<who>Andrew</who>
+<reserved/>
+</task>

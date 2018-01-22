@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE todo [
+<!ELEMENT description (#PCDATA)>
+<!ATTLIST description priority NMTOKEN "low">
+<!ELEMENT task (description)>
+<!ELEMENT todo (task+)>
+]>
+<todo>
+<task>
+<description priority="high">Backup sales data for last month</description>
+</task>
+<task>
+<description priority="low">Complete end of month report</description>
+</task>
+</todo>
+

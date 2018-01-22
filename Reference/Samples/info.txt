@@ -1,0 +1,1 @@
+This files contain all the sample code from the book. Choose a location to install to.

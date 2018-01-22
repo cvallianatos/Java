@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE todo [
+<!ELEMENT assign:who (#PCDATA)>
+<!ELEMENT completed (completed:who)>
+<!ELEMENT completed:who (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT todo (description, assign:who, completed)>
+]>
+<todo>
+<description>Backup sales data</description>
+<assign:who>Andrew</assign:who>
+<completed>
+<completed:who>Peter</completed:who>
+</completed>
+</todo>
+

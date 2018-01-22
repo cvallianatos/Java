@@ -1,0 +1,16 @@
+?xml version="1.0"?>
+!DOCTYPE todo [
+<!ELEMENT assign:who (#PCDATA)>
+<!ATTLIST assign:who
+xmlns:assign CDATA #REQUIRED>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT task (description, assign:who)>
+<!ELEMENT todo (task)>
+]>
+todo>
+<task>
+<description>Backup sales data</description>
+<assign:who xmlns:assign="http://www.company.com/people">Andrew</assign:who>
+</task>
+/todo>
+
